@@ -1,0 +1,56 @@
+/* NOTAS */
+
+.encabezado__titulo--nota{
+    margin: 5%;
+    font-size: 400%;
+    text-align: center;
+    background-color: rgba(223, 142, 75, 0.308);
+    
+}
+
+
+.nota{
+  
+    justify-content: center;
+    background-color: rgba(255, 248, 220, 0.219);
+    
+}
+
+.nota__adelanto{
+    font-size: 150%;
+    width: 50%;
+    background-color: rgba(222, 184, 135, 0.055);
+}
+
+.nota__destacado{
+    font-family: 'Parisienne', cursive;
+    font-size: 260%;
+    
+}
+
+.nota__parrafo{
+    text-align: center;
+    line-height: 30px;
+    margin: 50px;
+    font-size: 150%;
+}
+
+.imagenEnNota{
+    display: flex;
+    justify-content: center;
+}
+
+.imagenEnNota__img{
+    width: 450px;
+    height: 275px;
+    box-shadow: 5px 5px #4d283146;
+}
+
+
+.nota__parrafo--negrita {
+    font-size: 100%;
+    font-weight: bold;
+    color: #eca9ba;
+    margin-left: 0;
+    margin-right: 0;
+}

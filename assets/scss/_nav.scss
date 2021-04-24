@@ -1,0 +1,23 @@
+
+/*VARIABLES*/
+$colornav: #79504e;
+
+
+/* NAVEGACION*/
+
+.barraDerecha{
+
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+
+
+.fondoNav{
+    background-color: rgba(255, 255, 255, 0.26);
+    
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #bd7661;
+}
