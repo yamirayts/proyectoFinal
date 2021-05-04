@@ -34,7 +34,6 @@ a:visited {
 a:focus {
    
     border-bottom: 0px solid;
-   
     background:$colortrasparente;
    
    }
@@ -44,9 +43,7 @@ a:focus {
 a:hover {
    
     border-bottom: 0px solid;   
-    color: #e2897b;
-    font-size: 125%;
-   
+    color: #e2897b;   
    }
 
 
@@ -73,6 +70,29 @@ a:hover {
        
        
    }
+
+
+   /* BOTON FLOTANTE*/
+
+.flotDerecha {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    
+}
+
+.flotColor {
+    color: #eeeded  !important;
+}
+
+.mapa{
+    
+    width: 100%;
+    object-fit: cover;
+    transition: 1s;
+      
+}
    
    
    
