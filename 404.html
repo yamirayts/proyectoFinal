@@ -8,50 +8,52 @@
     <meta name="keywords"content="pagina, error, 404">
     <link rel="shortcut icon" href="./img/favicon-16x16.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="./../assets/css/estilo.css">
+    <link rel="stylesheet" href="./assets/css/estilo.css">
     <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Montserrat:ital,wght@1,100;1,200;1,300&family=Parisienne&display=swap" rel="stylesheet">
     <title>Preveni, Toacate</title>
 </head>
 <body>
 
-    <header class="fondoNav">
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparen">
-            <a class="navbar-brand" href="./index.html">
-              <img src="./img/lgo4.png" width="30" height="30" class="d-inline-block align-top" alt="">
-              Preveni, tocate
+  <header class="fondoNav">  
+    <nav class="navbar navbar-expand-lg navbar-light .bg-transparent">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./img/lgo4.png" width="30" height="30" class="d-inline-block align-top" alt="iconCa">
+        Preveni, tocate
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse barraDerecha" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#nosotros">Nosotros <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./views/galeria.html">Galeria</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Notas
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse barraDerecha" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="./../index.html#nosotros">Nosotros <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./galeria.html">Galeria</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Notas
-                  </a>
-                  <div class="dropdown-menu dropdown-menu-right">
-                    <a class="dropdown-item" href="./nota1.html">Dalia Gutmann se confiesa</a>
-                    <a class="dropdown-item" href="./nota2.html">No tengamos miedo.</a>
-                    <a class="dropdown-item" href="./nota4.html">3 Jovenes derriban 5 mitos.</a>
-                    <a class="dropdown-item" href="./nota3.html">Concientización sobre el Cáncer de Mama</a>
-                  </li>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./contacto.html">Contacto</a>
-                </li>
-                <li class="nav-item">
-                  <a class="btn btn-secondary donar" href="./views/donar.html" role="button">Donar</a>
-                </li>                
-              </ul>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="./views/nota1.html">Dalia Gutmann se confiesa</a>
+              <a class="dropdown-item" href="./views/nota2.html">No tengamos miedo.</a>
+              <a class="dropdown-item" href="./views/nota3.html">3 Jovenes derriban 5 mitos.</a>
+              <a class="dropdown-item" href="./views/nota4.html">Concientización sobre el Cáncer de Mama</a>
             </div>
-          </nav>
-      </header>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="./views/contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-secondary donar" href="./views/donar.html" role="button">Donar</a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+</header>
 <div class="error">
     <div class="error__texto">
         <h1>Ooops! Error 404</h1>
