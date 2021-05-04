@@ -121,7 +121,9 @@ a:hover {
 .pie {
   display: flex;
   justify-content: center;
-  color: #242222; }
+  color: #242222;
+  margin-bottom: 90px;
+  margin-top: 20px; }
 
 /* GALERIA */
 #galeriaCompleta {
@@ -305,7 +307,10 @@ a:hover {
   margin-top: 60px;
   padding-top: 10px;
   background-color: #cccccc2a;
-  height: 500px; }
+  height: 80%; }
+
+.tablasDonar {
+  margin-top: 10px; }
 
 /*  Estilos Generales de las Tarjetas */
 /* Derechos de tarjetas http://www.falconmasters.com/ */
