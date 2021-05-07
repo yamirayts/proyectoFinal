@@ -59,9 +59,11 @@
 
 #noticias{
     
-    background: #25141973;
-    padding: 5%;
-    
+    background: #25141973; 
+}
+
+.notaTarjeta{
+    padding: 10%;
 }
 
 .notaTarjeta__img{
@@ -71,7 +73,7 @@
 
 .notaTarjeta__titulo{
     
-    width: 350px;
+    width: 110%;
     color: wheat;
    
 }

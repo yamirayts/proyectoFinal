@@ -104,15 +104,17 @@ a:hover {
 
 /* NOTICIAS */
 #noticias {
-  background: #25141973;
-  padding: 5%; }
+  background: #25141973; }
+
+.notaTarjeta {
+  padding: 10%; }
 
 .notaTarjeta__img {
   width: 250px;
   height: 150px; }
 
 .notaTarjeta__titulo {
-  width: 350px;
+  width: 110%;
   color: wheat; }
 
 .notaTarjeta__parrafo {
@@ -220,8 +222,8 @@ a:hover {
   justify-content: center; }
 
 .imagenEnNota__img {
-  width: 450px;
-  height: 275px;
+  width: 60%;
+  height: 20%;
   box-shadow: 5px 5px #4d283146; }
 
 .nota__parrafo--negrita {
